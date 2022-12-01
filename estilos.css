@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    background-color: rgb(247, 212, 212);
+    font-family: 'Kalam', cursive;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.presentacion_container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+p{
+font-size: 22px;
+}
+footer{
+    width:50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
