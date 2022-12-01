@@ -24,9 +24,8 @@ $fecha = $dia . '/' . $mes . '/' . $año;
 $nombre = 'Teo';
 $apellido = 'Demattei';
 $presentacion = $nombre . " " . $apellido;
-
-$definicion = 'estudio programacion hace un año y un poco mas, <br> me enamore de esta gigantesco mundo gracias a que me dio curiosidad como funcionaba todo esto'
-
+$definicion = 'estudio programacion hace un año y un poco mas, <br> me enamore de esta gigantesco mundo gracias a que me dio curiosidad como funcionaba todo esto';
+$experiencia = array('javascript','css','html','figma');
 
 
 
@@ -38,15 +37,23 @@ $definicion = 'estudio programacion hace un año y un poco mas, <br> me enamore 
 </div>
 
 <div class="presentacion_container">
-<h2>Hola soy <?php echo $presentacion?></h2>
-<p>una breve historia:<?php echo $definicion?></p>
+   <h2>Hola soy <?php echo $presentacion?></h2>
+    <p>una breve historia:<?php echo $definicion?></p>
+
+    <p id="conocimiento">tengo conocimientos en:</p>
+    <div class="columnas">
+       <p><?php echo $experiencia[2] ?></p>
+       <p><?php echo $experiencia[1] ?></p>
+       <p><?php echo $experiencia[0] ?></p>
+       <p><?php echo $experiencia[3] ?></p>
+    </div>
 </div>
 
 <footer>
 
-<h3><?php echo $presentacion?></h3>
-<p><?php echo $fecha?></p>
+      <h3><?php echo $presentacion?></h3>
+      <p><?php echo $fecha?></p>
 </footer>
 
 </body>
-</html>
+</html> 

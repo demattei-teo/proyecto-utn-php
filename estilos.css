@@ -1,11 +1,11 @@
 *{
-    margin: 0;
+    
     box-sizing: 0;
 }
 
 body{
     width: 100%;
-    height: 100vh;
+    height: 97vh;
     font-size: 16px;
     background-color: rgb(247, 212, 212);
     font-family: 'Kalam', cursive;
@@ -18,7 +18,7 @@ body{
 
 .titulo{
     width: 100%;
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,18 +26,32 @@ body{
 }
 .presentacion_container{
     width: 100%;
-    height: 400px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     text-align: center;
+
 }
+.conocimiento{
+    margin: 20px;
+}
+.columnas{
+ display: flex;
+ text-align: center;
+
+}
+.columnas p{
+    padding: 0px 10px;
+}
+
 p{
 font-size: 22px;
 }
+
 footer{
-    width:50%;
+    width:70%;
     height: 50px;
     display: flex;
     align-items: center;
